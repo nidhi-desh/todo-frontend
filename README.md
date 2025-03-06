@@ -55,5 +55,3 @@ The frontend will run on http://localhost:3000.
 🔥 Features
 ✅ Add, Edit, Delete tasks
 ✅ Mark tasks as completed
-✅ Store tasks with colors (Red, Blue, Green)
-✅ Responsive UI with Tailwind CSS
