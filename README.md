@@ -20,17 +20,40 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## **📌 `README.md` for Frontend (`todo-frontend`)**
+```md
+# Todo Frontend (Next.js + Tailwind CSS)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This is the frontend for the Todo List App, built with **Next.js**, **TypeScript**, and **Tailwind CSS**.
 
-## Deploy on Vercel
+## 🚀 Setup Instructions
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 1️⃣ Clone the Repository
+```sh
+git clone https://github.com/your-username/todo-frontend.git
+cd todo-frontend
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 2️⃣ Install Dependencies
+
+npm install
+
+### 3️⃣ Configure API Endpoint
+
+Ensure the backend is running on http://localhost:5000. The API is set in utils/api.ts:
+
+const API_URL = "http://localhost:5000/tasks";
+
+### 4️⃣ Start the Frontend
+
+npm run dev
+
+The frontend will run on http://localhost:3000.
+
+🔥 Features
+✅ Add, Edit, Delete tasks
+✅ Mark tasks as completed
+✅ Store tasks with colors (Red, Blue, Green)
+✅ Responsive UI with Tailwind CSS
